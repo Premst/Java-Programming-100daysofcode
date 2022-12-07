@@ -1,0 +1,17 @@
+
+// Addition
+public class m_add_34 {
+    public static void main(String[] args) {
+        int a = 22; 
+        int b = 11;
+        // method calling
+        int c = add(a, b); // a and b are actual paramethers
+        System.out.println("The sum of a and b is = " + c);
+    }
+    // user defined method 
+    public static int add(int n1, int n2){ // n1 and n2 are formal paramethers
+        int s; 
+        s = n1+n2;
+        return s; // returning the sum
+    }
+}
